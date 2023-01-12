@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sass/style.css">
+    <title>2DO LIST</title>
+    <link rel="icon" href="img/—Pngtree—correct symbol big red check_3945468.png">
+
+
+</head>
+<body>
+    <main>
+        <section class="newItemEntry">
+            <form id="itemEntryForm">
+                <label for="newItem">Enter a new to do item</label>
+                <input id="newItem" type="text" size="40" autocomplete="off" placeholder="add new item" tabindex="0"/>
+                <button id="addItem" class="button" title="add new item!" aria-label="Add new Item" tabindex="0">+</button>
+            </form>
+        </section>
+        <section class="listContainer">
+            <div class="listTitle">
+                <h1>To DO List</h1>
+                <button id="clearItems" class="button" title="clear the list" aria-label="Remove all the items from the List" tabindex="0">Clear</button>
+            </div>
+            <hr />
+            <div id="listItems">
+                <div class="item">
+                    <input type="checkbox" id="1" tabindex="0"/>
+                    <label for="1">eat</label>
+                </div>
+                <div class="item">
+                    <input type="checkbox" id="2" tabindex="0"/>
+                    <label for="2">sleep</label>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    
+</body>
+</html>
